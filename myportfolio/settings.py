@@ -1,4 +1,3 @@
-
 import os
 from pathlib import Path
 import dj_database_url
@@ -24,6 +23,10 @@ ALLOWED_HOSTS = []
 # Application definition
 
 INSTALLED_APPS = [
+    'url_or_relative_url_field',
+    'crispy_forms',
+    'tinymce',
+    'bootstrap4',
     'portfolio',
     'django.contrib.admin',
     'django.contrib.auth',
