@@ -122,15 +122,15 @@
     <hr>
     <h3> <a href="{% url 'home' %}"  style="text-decoration: none; font-weight: bold; font-size:17px;"class="">Home</a></h3>
     <hr>
-    <h4> <a class="" href="" style="text-decoration: none; font-weight: bold; font-size:17px;" title="User"></i>About</a></h4>
+    <h4> <a class="" href="{% url 'home' %}#about"  data-section="#about" style="text-decoration: none; font-weight: bold; font-size:17px;" title=""></i>About</a></h4>
     <hr>
-    <h4> <a href="" class="">Projects</a></h4>
+    <h4> <a href="{% url 'home' %}#works"  data-section="#works"class="">Projects</a></h4>
     <hr>
-    <h4> <a href="" class="">Services</a></h4>
+    <h4> <a href="{% url 'home' %}#feature" data-section="#feature" class="">Services</a></h4>
     <hr>
-    <h4><a href="" class="">Contacts</a></h4>
+    <h4><a href="{% url 'home' %}#call-to-action" data-section="#call-to-action" class="">Contacts</a></h4>
     <hr>
-   
+    
   </div>
   
   <div id="main" >
