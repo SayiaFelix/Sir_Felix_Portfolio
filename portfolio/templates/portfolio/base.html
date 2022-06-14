@@ -11,7 +11,6 @@
     <title> Felix's Portfolio</title>
     {% endif %} 
     {% block styles %} {% bootstrap_css %}
-     <link rel="stylesheet" href="{% static 'css/animate.css' %}">
     <link rel="stylesheet" href="{% static 'css/portfolio.css' %}">
     <link rel="stylesheet" href="{% static 'css/slider.css' %}">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
@@ -136,7 +135,7 @@
   <div id="main" >
      <span style="font-size:25px;cursor:pointer; color:black;margin-top:10px;padding-right:10px; border-right:2px solid black;" onclick="openNav()">&#9776; Menu</span>
         <div class="navbar-brand" style="float:right;margin-top:-15px;">
-            <img src="{% static 'images/logs.png' %}" alt="" class="img-responsive" height="60">
+            <img src="{% static 'images/logs.png' %}" alt="" class="img-responsive img-fluid" height="">
         </div> 
           <hr>
       {% block content %}{%endblock%} 
