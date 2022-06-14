@@ -6,14 +6,14 @@
 <section id="hero-area">
     <div class="container">
         <div class="row">
-            <div class="col-md-12 text-center">
+            <div class="col-md-12 text-center" style="background-color: #FDFFFC;">
                 <div class="block wow fadeInUp" data-wow-delay=".3s">
                     <section class="cd-intro">
                         <h1 class="wow fadeInUp animated cd-headline slide" data-wow-delay=".4s">
                             <span>HI, I'M SAYIA FELIX A</span><br>
                             <span class="cd-words-wrapper">
                                 <b class="is-visible">Full Stack Developer</b>
-                                <b>Designer</b>
+                                <b>Web Designer</b>
                             </span>
                         </h1>
                     </section>
@@ -59,14 +59,14 @@
         </div>
         <div class="row">
             {% for project in projects %}
-            <div class="col-sm-4 col-xs-12">
+            <div class="col-sm-4 col-xs-12" style="border-radius:5px;">
                 <figure class="wow fadeInLeft animated portfolio-item" data-wow-duration="500ms" data-wow-delay="0ms">
                     <div class="img-wrapper">
-                        <img src="{{project.image.url}}" class="img-responsive" alt="">
+                        <img src="{{project.project_image.url}}" class="img-responsive img-fluid" height="250px" width="400px" alt="">
                         <div class="overlay">
                             <div class="buttons">
                                 <a rel="gallery" class="fancybox" href="">Full Image</a>
-                                <a href="{% url 'project' project.id %}">View Project</a>
+                                 <a href="/project/{{project.id}}">View Project</a> 
                             </div>
                         </div>
                     </div>
@@ -96,38 +96,38 @@
             </p>
         </div>
         <div class="row">
-            <div class="col-md-6 col-lg-6 col-xs-12">
+            <div class="col-md-6 col-lg-6 col-xs-12"style="border-right:1px solid black;">
                 <div class="media wow fadeInUp animated" data-wow-duration="500ms" data-wow-delay="300ms">
                     <div class="media-left">
-                        <div class="icon">
-                            <i class="ion-ios-flask-outline"></i>
+                        <div class="icon"style="font-size:100px;color:#30BDD5;">
+                            <i class="fa-brands fa-codepen"></i>
                         </div>
                     </div>
                     <div class="media-body">
-                        <h4 class="media-heading">Web Design</h4>
-                        <p>I do graphic designing using mainly Adobe Photoshop and Adobe Illustrator. I also have experience in Corel Draw and in printing.</p>
+                        <h4 class="media-heading">Designing Websites</h4>
+                        <p>I do Web designing using pen and paper,Figma and Miro.Then developing the project untill it works.</p>
+                         <h6 class="media-heading">Figma | Miro</h6>
                     </div>
                 </div>
             </div>
             <div class="col-md-6 col-lg-6 col-xs-12">
                 <div class="media wow fadeInUp animated" data-wow-duration="500ms" data-wow-delay="300ms">
-                    <div class="media-left">
-                        <div class="icon">
-                            <i class="ion-ios-lightbulb-outline"></i>
+                     <div class="media-left">
+                        <div class="icon" style="font-size:100px;color:#30BDD5;">
+                            <i class="fa-solid fa-code"></i>
                         </div>
                     </div>
                     <div class="media-body">
-                        <h4 class="media-heading">Web Development</h4>
-                        <p>I use pen and paper to conceptualize web wireframes and Figma to create prototypes. I develop web applications using Django for backend and Angular for frontend. I can also do WordPress websites.</p>
+                        <h4 class="media-heading">Developing Websites</h4>
+                        <p>I like building website from an idea to final working project using skills mentioned below. I develop web applications using Django and Flask  for backend and Angular for front end.</p>
+                         <h6 class="media-heading">AngularJs | Django | Flask | JS | Python | </h6>
                     </div>
                 </div>
             </div>
             {% comment %} <div class="col-md-4 col-lg-4 col-xs-12">
                 <div class="media wow fadeInUp animated" data-wow-duration="500ms" data-wow-delay="300ms">
                     <div class="media-left">
-                        <div class="icon">
-                            <i class="ion-ios-americanfootball-outline"></i>
-                        </div>
+                     
                     </div>
                     <div class="media-body">
                         <h4 class="media-heading">Social Media Marketing</h4>

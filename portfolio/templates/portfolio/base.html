@@ -135,10 +135,10 @@
   
   <div id="main" >
      <span style="font-size:25px;cursor:pointer; color:black;margin-top:10px;padding-right:10px; border-right:2px solid black;" onclick="openNav()">&#9776; Menu</span>
-          
-          
-    
-      <hr>
+        <div class="navbar-brand" style="float:right;margin-top:-15px;">
+            <img src="{% static 'images/logs.png' %}" alt="" class="img-responsive" height="60">
+        </div> 
+          <hr>
       {% block content %}{%endblock%} 
       {% include "footer.html" %} 
 </div>
