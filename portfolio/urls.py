@@ -6,6 +6,7 @@ from django.conf.urls.static import static
 
 urlpatterns=[
     url('^$',views.home, name='home'),
+    url('<int:project_id>/', views.project, name='project'),
    
 ]
 

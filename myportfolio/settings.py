@@ -25,7 +25,6 @@ ALLOWED_HOSTS = []
 INSTALLED_APPS = [
     'url_or_relative_url_field',
     'crispy_forms',
-    'tinymce',
     'bootstrap4',
     'portfolio',
     'django.contrib.admin',
@@ -74,9 +73,9 @@ WSGI_APPLICATION = 'myportfolio.wsgi.application'
 DATABASES = {
     'default': {
      'ENGINE': 'django.db.backends.postgresql',
-        'NAME': '',
+        'NAME': 'portfolio',
         'USER': 'moringa',
-        'PASSWORD': '',
+        'PASSWORD': 'portfolio',
     }
 }
 
