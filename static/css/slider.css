@@ -428,7 +428,7 @@ figure figcaption p {
 
 #feature h3 {
     color: #222222;
-    font-size: 18px;
+    font-size: 19px;
     text-transform: uppercase;
     text-align: center;
     margin-bottom: 20px;
@@ -438,7 +438,7 @@ figure figcaption p {
 
 #feature p {
     line-height: 25px;
-    font-size: 14px;
+    font-size: 16px;
     color: #777777;
 }
 
@@ -446,9 +446,9 @@ figure figcaption p {
     text-decoration: none;
     color: #fff;
     background-color: #02bdd5;
-    height: 100px;
+    height: 150px;
     text-align: center;
-    width: 100px;
+    width: 150px;
     font-size: 50px;
     line-height: 100px;
     overflow: hidden;

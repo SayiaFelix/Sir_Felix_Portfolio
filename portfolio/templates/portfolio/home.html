@@ -20,7 +20,7 @@
                     <h2 class="wow fadeInUp animated" data-wow-delay=".6s">
                          This site showcases some of my projects.
                     </h2>
-                    <a class="btn-lines dark light wow fadeInUp animated smooth-scroll btn btn-default btn-green" data-wow-delay=".9s" href="#works" data-section="#works">View Works</a>
+                    <a class=" wow fadeInUp animated smooth-scroll btn btn-outline-secondary" data-wow-delay=".9s" href="#works" style="border-radius:5px;"data-section="#works">View Projects</a>
                 </div>
             </div>
         </div>
@@ -55,6 +55,7 @@
     <div class="container">
         <div class="section-heading">
             <h1 class="title wow fadeInDown" data-wow-delay=".3s">Latest Project</h1>
+            <hr>
             <p class="wow fadeInDown" data-wow-delay=".5s">Below are some of the projects that I have worked on.</p>
         </div>
         <div class="row">
@@ -65,14 +66,14 @@
                         <img src="{{project.project_image.url}}" class="img-responsive img-fluid" height="250px" width="400px" alt="">
                         <div class="overlay">
                             <div class="buttons">
-                                <a rel="gallery" class="fancybox" href="">Full Image</a>
-                                 <a href="/project/{{project.id}}">View Project</a> 
+                            
+                                 <a class="btn btn-sm btn-outline-primary" style="border-radius:5px;"href="/project/{{project.id}}">View Project</a> 
                             </div>
                         </div>
                     </div>
                     <figcaption>
                         <h4>
-                            <a href="">{{project.name}}</a>
+                            <a style="text-decoration:none;"href="">{{project.name}}</a>
                         </h4>
                         <p>
                             {{project.description | truncatechars:50}}
@@ -105,6 +106,7 @@
                     </div>
                     <div class="media-body">
                         <h4 class="media-heading">Designing Websites</h4>
+                        <hr>
                         <p>I do Web designing using pen and paper,Figma and Miro.Then developing the project untill it works.</p>
                          <h6 class="media-heading">Figma | Miro</h6>
                     </div>
@@ -119,6 +121,7 @@
                     </div>
                     <div class="media-body">
                         <h4 class="media-heading">Developing Websites</h4>
+                        <hr>
                         <p>I like building website from an idea to final working project using skills mentioned below. I develop web applications using Django and Flask  for backend and Angular for front end.</p>
                          <h6 class="media-heading">AngularJs | Django | Flask | JS | Python | </h6>
                     </div>

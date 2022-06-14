@@ -192,7 +192,7 @@ ul li {
     background-attachment: fixed;
     padding: 230px 0;
     color: #fff;
-    box-shadow: 0 0 8px rgba(0, 0, 0, 0.3);
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.4);
     position: relative;
 }
 
@@ -252,7 +252,7 @@ ul li {
     display: flex;
     justify-content: center;
     align-items: center;
-    background-color: wheat;
+    background-color: #35b7c9;
     margin: 20px 10px;
     border-radius: 50%;
     margin-top: -1px;
@@ -297,7 +297,7 @@ ul li {
     margin: 0px;
     line-height: 0px;
     border-radius: 10px;
-    background-color: wheat;
+    background-color: #35b7c9;
     border: 1px solid #cbcbcb;
     box-shadow: 2px 2px 12px rgba(0, 0, 0, 0.2);
 }
