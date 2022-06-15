@@ -270,7 +270,7 @@ ul li {
 .communication-container a:hover,
 .communication a:hover {
     background-color: #000000;
-    box-shadow: 2px 2px 12px rgba(0, 0, 0, 0.2);
+    box-shadow: 2px 2px 12px rgba(0, 0, 0, 0.3);
     transition: all ease 0.5s;
 }
 
@@ -297,9 +297,9 @@ ul li {
     margin: 0px;
     line-height: 0px;
     border-radius: 10px;
-    background-color: #35b7c9;
+    background-color: #F1EEE9;
     border: 1px solid #cbcbcb;
-    box-shadow: 2px 2px 12px rgba(0, 0, 0, 0.2);
+    box-shadow: 2px 2px 12px rgba(0, 0, 0, 0.3);
 }
 
 .communication i {
