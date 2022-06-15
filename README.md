@@ -1,8 +1,6 @@
 # Sir_Felix_Portfolio
 
-![Portfolio](/static/images/app.png)
-
-## Author: [Sayia Felix](https://github.com/SayiaFelix)
+![Portfolio](/static/images/api.png)
 
 
 ## Author: [Sayia Felix](https://github.com/SayiaFelix)
