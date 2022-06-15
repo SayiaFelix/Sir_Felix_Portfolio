@@ -17,7 +17,7 @@ Link to Awwards: ![Awwwards](/static/image/award.png)
 ## Description
 Sayia Felix Portfolio show casing some of my projects and skills.Look around and see what we can build together.
 
-Link to Awwards: https://sir-awwwards.herokuapp.com/
+Link to portfolio: https://sirfelix-portfolio.herokuapp.com/
 
 
 ## Technology Used
