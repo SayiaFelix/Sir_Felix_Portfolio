@@ -19,7 +19,7 @@ h6 {
 }
 
 h2 {
-    font-size: 26px;
+    font-size: 27px;
 }
 
 p {
@@ -97,39 +97,6 @@ ul li {
     display: inline-block;
 }
 
-
-/* 
-.fancybox-close {
-    background: url("../images/bg.png") no-repeat scroll 0 0 transparent;
-    height: 50px;
-    right: 0;
-    top: 0;
-    width: 50px;
-}
-
-.fancybox-next span {
-    background: url("../images/icons/right.png") no-repeat scroll center center #009ee3;
-    height: 50px;
-    width: 50px;
-    right: 0;
-}
-
-.fancybox-prev span {
-    background: url("../images/icons/left.png") no-repeat scroll center center #009ee3;
-    height: 50px;
-    width: 50px;
-    left: 0;
-}
-
-.fancybox-title {
-    padding: 15px 8px;
-}
-
-.fancybox-title h3 {
-    font-size: 15px;
-    margin: 0;
-} */
-
 .global-page-header {
     background-attachment: fixed;
     background-size: cover;
@@ -137,10 +104,11 @@ ul li {
     position: relative;
     background: #02bdd5;
     color: #fff;
+    border-radius: 10px;
 }
 
 .global-page-header h2 {
-    font-size: 42px;
+    font-size: 45px;
     font-weight: bold;
     color: #fff;
     text-transform: uppercase;
