@@ -35,9 +35,8 @@
             <div class="col-md-6 col-sm-6">
                 <div class="block wow fadeInLeft" data-wow-delay=".3s" data-wow-duration="500ms">
                     <h2>ABOUT ME</h2>
-                    <p>I'm a dynamic Junior Software Developer with a passion for Fullstack programming. I have
-                         experience working in a fast-growing company with my excellent academic performance and
-                          communication skills. Looking for more growth in my software development career and am located in Nairobi,Kenya. </p>
+                    <p>I'm a dynamic Junior Software Developer with a passion for Fullstack programming, working in both, backend and frontend programming. I have
+                         experience working in a fast-growing company with my excellent academic performance and communication skills.I'm Looking for more growth in my software development career, improving my skills and learning new technologies.I'm located in Nairobi,Kenya.</p>
                 </div>
             </div>
             <div class="col-md-6 col-sm-6" style="margin-top:-10%;border-radius:10px;">
@@ -51,16 +50,16 @@
 <!-- End About Me -->
 
 <!-- Portfolio -->
-<section id="works" class="works">
+<section id="works" class="works"style="background-color:#CBD9E6;">
     <div class="container">
         <div class="section-heading">
-            <h1 class="title wow fadeInDown" data-wow-delay=".3s">Latest Project</h1>
+            <h1 class="title wow fadeInDown" data-wow-delay=".3s">Latest Projects</h1>
             <hr>
             <p class="wow fadeInDown" data-wow-delay=".5s">Below are some of the projects that I have worked on.</p>
         </div>
         <div class="row">
             {% for project in projects %}
-            <div class="col-sm-4 col-xs-12" style="border-radius:5px;">
+            <div class="col-sm-4 col-xs-12" style="border-radius:10px;">
                 <figure class="wow fadeInLeft animated portfolio-item" data-wow-duration="500ms" data-wow-delay="0ms">
                     <div class="img-wrapper">
                         <img src="{{project.project_image.url}}" class="img-responsive img-fluid" height="250px" width="400px" alt="">
@@ -91,7 +90,7 @@
 <section id="feature">
     <div class="container">
         <div class="section-heading">
-            <h1 class="title wow fadeInDown" data-wow-delay=".3s">What I Can Do</h1>
+            <h1 class="title wow fadeInDown" data-wow-delay=".3s">What I Offer</h1>
             <p class="wow fadeInDown" data-wow-delay=".5s">
                 My extensive skills has enabled me to provide the following <br> services that I am proficient in.
             </p>
@@ -127,17 +126,6 @@
                     </div>
                 </div>
             </div>
-            {% comment %} <div class="col-md-4 col-lg-4 col-xs-12">
-                <div class="media wow fadeInUp animated" data-wow-duration="500ms" data-wow-delay="300ms">
-                    <div class="media-left">
-                     
-                    </div>
-                    <div class="media-body">
-                        <h4 class="media-heading">Social Media Marketing</h4>
-                        <p>I use Buffer to manage social media pages, create posts for different social media pages, reply to messages and monitor performance of social media pages.</p>
-                    </div>
-                </div>
-            </div> {% endcomment %}
         </div>
     </div>
 </section>
