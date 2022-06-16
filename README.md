@@ -11,7 +11,11 @@
 ## Description
 Sayia Felix Portfolio show casing some of my projects and skills.Look around and see what we can build together.
 
-Link to portfolio: https://sirfelix-portfolio.herokuapp.com/
+  <a href="https://sirfelix-portfolio.herokuapp.com/" target="_blank">
+    <img src="https://img.shields.io/static/v1?label=|&message=WEBSITE&color=ff&style=plastic&logo=realm&logo-color=white"/>
+  </a>
+
+<!-- Link to portfolio: https://sirfelix-portfolio.herokuapp.com/ -->
 
 
 ## Technology Used
